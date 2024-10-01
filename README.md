@@ -41,7 +41,7 @@ This project enables users to join video and audio calls using the ZEGOCLOUD pla
 2. **Retrieve AppID and AppSign** from the ZEGOCLOUD console.
 3. **Initialize ZEGOCLOUD in the app** using the following code in your main file:
    ```dart
-   ZegoUIKitPrebuiltCallWithInvitation(
+   ZegoUIKitPrebuiltCall(
      appID: yourAppID, 
      appSign: yourAppSign, 
      userID: userID, 
